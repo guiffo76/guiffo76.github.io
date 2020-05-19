@@ -1,0 +1,333 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+html{
+	scroll-behavior: smooth;
+}
+body
+{
+	background-color: #fff;
+	font-family: sans-serif;
+}
+
+header
+{
+	background: #000000;
+	width: 100%;
+	height: 90px;
+	position: fixed;
+
+}
+
+.container
+{
+ width:80%;
+margin: 0 auto;
+
+}
+
+.logo
+{
+float: left;
+}
+
+.logo a
+{
+	color: #FF0000;
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+	font-size: 19px;
+	font-weight: bold;
+	line-height: 30px;
+	text-transform: uppercase;
+	margin: 15px; 
+
+	
+}
+
+.nav
+{
+	float: right;
+}
+.nav-link 
+{
+	list-style: none;
+}
+
+.nav-link li 
+{
+	display: inline-block;
+}
+
+.nav-link li a
+{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 45px;
+	line-height: 30px;
+	
+
+}
+.nav-link li a:hover
+{
+	background-color: #fff;
+	color: #3f5185;
+	font-weight: bold;
+
+
+}
+
+/*section
+{
+	width: 100%;
+	height: 100vh;
+
+*/
+}
+
+#accueil{
+	background-color: #fff;
+	
+}
+#recherche{
+	background-color: #000000;
+
+}
+#carrière{
+	background-color: #000000;
+}
+#formulaire{
+	background-color: #000000;
+}
+#blog{
+	background-color: #000000;
+}	
+
+
+.first{
+	height: 100vh;
+	padding: 100px
+}
+
+.first h1{
+	color: #000000;
+}
+
+.first{
+background-image: url(image/cybersecurite.jpg);
+background-size: cover;
+background-attachment: fixed;
+
+}
+  .content{
+  	height: 300vh;
+  	padding: 100px;
+  }
+
+  .content h1{
+  	color: red;
+  	text-align: center;
+  	margin: 0;
+
+  }
+
+  .content p{
+  	color: #fff;
+  	text-align: left;
+  	padding: 30px;
+  	font-style: : italic;
+  	font-family: monospace;
+  	font-size: 18px
+  }
+  .content li{
+  	color: white;
+  }
+  	
+
+
+.content ul{
+	text-align: center;
+	list-style-position: inside;
+}
+
+.content ol{
+	text-align: left;
+}
+.content a{
+	text-align: center;
+
+}
+
+
+.third{
+	height: 240vh;
+	padding: 100px;
+
+}
+
+.third h1{
+	color: red;
+  	text-align: center;
+  	margin: 0;
+
+}
+
+.third p{
+	color: #fff;
+	text-align: left;
+	padding: 40px;
+	font: italic;
+	font-family: monospace;
+	font-size: 18px;
+}
+
+.third video{
+	height: 400px;
+	width: 900px;
+
+}
+.third h3{
+	color: #FF6600;
+	text-align: center;
+	margin: 0;
+	padding: 50px;
+}
+.third h2{
+	color: red;
+	text-align: center;
+	margin: 0;
+	padding: 40px;
+
+}
+.third h4{
+	color:white;
+	text-align: center;
+	padding: 20px;
+
+}
+
+.third p{
+	color: white;
+	font-size: 20px;
+}
+
+.third a{
+	padding: 30px;
+}
+
+.fourth {
+	height: 10vh;
+	padding: 100px;
+
+}
+.fourth h1{
+color: red;
+text-align: center;
+padding: 50px;
+}
+
+.fourth
+{
+	height: 190vh;
+	padding: 100px;
+
+}
+
+form {
+	margin: 50px;
+}
+
+.contact-box
+{
+	width: 500px;
+	background-color: #000000;
+	box-shadow: 0 0 20px 0 #999;
+	top: 100%;
+	left: 100%;
+	transform: translate(-50%.-50%);
+	padding: 40px;
+    margin: 50px 350px 100px;
+}
+
+.input-field{
+	width:400px;
+	height: 50px;
+	margin-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #777;
+	border-radius: 15px;
+	outline:none;
+
+}
+
+.textarea-field
+{
+	height: 150px;
+	padding-top: 10px
+}
+
+.last{
+	height: 250vh;
+	padding: 100px;
+}
+.last h1{
+	color:red;
+	text-align: center;
+	padding: 20px;
+
+}
+
+.last h3{
+	color: blue;
+	padding: 30px;
+	text-align: center;
+
+	}
+
+.last p{
+	color: white;
+	padding: 30px;
+	font-size:18px;
+	text-align: left;
+	font-family: monospace;
+	font-style: italic;
+
+
+
+}
+.last h2{
+	color: #696969;
+	text-align: center;
+	padding: 30px;
+
+}
+.last h4{
+	color: #B0E0E6;
+	text-align: center;
+	padding: 30px;
+}
+.last a{
+	padding: 50px;
+	text-align: right;
+
+}
+
+#AlertDiv {
+margin: auto;
+vertical-align: right;
+padding: 100px;
+}
+
+#contact{
+	margin:auto;
+	color: blue;
+	text-align: center;
+
+}
